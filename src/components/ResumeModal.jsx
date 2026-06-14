@@ -133,7 +133,7 @@ const ResumeModal = ({ isOpen, onClose }) => {
               <div className="row-header">
                 <strong>
                   Distributed System Design & Simulation Platform{' '}
-                  <a href="https://github.com/KUSHAL-RV" target="_blank" rel="noopener noreferrer" className="resume-project-link">
+                  <a href="https://github.com/KUSHAL-RV/Distributed-System-Design-Simulation-Platform" target="_blank" rel="noopener noreferrer" className="resume-project-link">
                     <Github size={12} style={{ display: 'inline', verticalAlign: 'middle', marginLeft: '4px' }} />
                   </a>
                 </strong>
@@ -151,7 +151,7 @@ const ResumeModal = ({ isOpen, onClose }) => {
               <div className="row-header">
                 <strong>
                   Farm Management System (E-Commerce Platform){' '}
-                  <a href="https://github.com/KUSHAL-RV" target="_blank" rel="noopener noreferrer" className="resume-project-link">
+                  <a href="https://github.com/KUSHAL-RV/Farm-Management-System" target="_blank" rel="noopener noreferrer" className="resume-project-link">
                     <Github size={12} style={{ display: 'inline', verticalAlign: 'middle', marginLeft: '4px' }} />
                   </a>
                 </strong>
@@ -167,18 +167,19 @@ const ResumeModal = ({ isOpen, onClose }) => {
             <div className="project-row">
               <div className="row-header">
                 <strong>
-                  Sleep Classification using Machine Learning Algorithms{' '}
-                  <a href="https://github.com/KUSHAL-RV" target="_blank" rel="noopener noreferrer" className="resume-project-link">
+                  ShadowAI Sentinel (Shadow-Work Auditor){' '}
+                  <a href="https://github.com/KUSHAL-RV/ShadowAI_Sentinel" target="_blank" rel="noopener noreferrer" className="resume-project-link">
                     <Github size={12} style={{ display: 'inline', verticalAlign: 'middle', marginLeft: '4px' }} />
                   </a>
                 </strong>
-                <span className="row-date">Feb 2025 – Mar 2025</span>
+                <span className="row-date">Dec 2024 – Feb 2025</span>
               </div>
-              <span className="row-tech">Python, Scikit-learn, PyTorch, NeuroKit2</span>
+              <span className="row-tech">Python, FastAPI, Docker, Microsoft Presidio, TypeScript</span>
               <ul className="row-bullet-points">
-                <li>Processed and analysed EEG/ECG signal data from the PhysioNet Sleep-EDF dataset (~8,000 epochs), extracting time-domain, frequency-domain, and NeuroKit2-based features for multi-class sleep stage classification.</li>
-                <li>Trained and benchmarked 6 ML models (RNN, CNN, SVM, KNN, Logistic Regression, K-Means) using Scikit-learn and PyTorch, evaluating with accuracy, ROC-AUC, F1-score, and confusion matrix across 5 sleep stages.</li>
-                <li>Achieved best performance with RNN (AUC = 0.92, F1 = 0.89); built end-to-end pipeline covering preprocessing, feature extraction, hyperparameter tuning, and visualisation using modular Python scripts.</li>
+                <li>Engineered an enterprise-grade secure gateway proxy using FastAPI to intercept, sanitize, and audit developer-AI interactions in real-time.</li>
+                <li>Implemented multi-layer PII redaction combining customizable Regex patterns and Microsoft Presidio to automatically redact sensitive information before it leaves the network.</li>
+                <li>Designed a tamper-proof audit vault with cryptographic log chaining and Ed25519 signatures to satisfy strict regulatory transparency and audit standards.</li>
+                <li>Built a client-side VS Code extension (TypeScript) to seamlessly intercept developer AI queries, handling streaming Server-Sent Events (SSE) directly.</li>
               </ul>
             </div>
           </div>
